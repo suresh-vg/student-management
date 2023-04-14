@@ -23,7 +23,7 @@ public class StudentService {
 	
 	public List<Student> getAllStudents()
 	{
-		return studentrepo
+		return studentrepo.findAll();
 	}
 	
 	public Student getbyId(int id)
